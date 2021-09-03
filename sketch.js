@@ -38,7 +38,7 @@ function setup(){
       y[i] += random(-stepSize,stepSize);
       // ellipse(x[i], y[i], 5, 5);
     }
-  
+
     strokeWeight(0.75);
     if (filled) fill(random(255));
     else noFill();
